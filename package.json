@@ -17,10 +17,7 @@
     "url": "https://github.com/maximiliano1997/Learning-ReactJS/issues"
   },
   "homepage": "https://github.com/maximiliano1997/Learning-ReactJS#readme",
-  "devDependencies": {
-    "standard": "^17.1.0"
-  },
   "eslintConfig": {
-   "extends": "./node_modules/standard/eslintrc.json" 
+    "extends": "./node_modules/standard/eslintrc.json"
   }
 }
