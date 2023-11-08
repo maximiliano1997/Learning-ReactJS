@@ -31,6 +31,21 @@ export function App() {
     }, [])
     console.log(fact)
 
+    // useEffect(() => {
+
+    //     const firsThreeWords = fact.split(' ').splice(0, 3).join(' ')
+    //     console.log(firsThreeWords)
+    //     setImageUrl(firsThreeWords)
+
+    //     fetch(`https://cataas.com/cat/says/${firsThreeWords}?fontSize=50&fontColor=red&json=true`)
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             const { url } = data
+    //             setImageUrl(url)
+    //             console.log
+    //         })
+    // }, [])
+
     return (
         <main>
             <h1>Hola mundillo!!</h1>

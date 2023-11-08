@@ -1,0 +1,3 @@
+Build only with ChatGPT instruction classes
+
+10 classes on every react hook
