@@ -1,0 +1,53 @@
+.movie-container {
+    max-width: 800px;
+    border: solid grey 2px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    background-color: #f0f8ff;
+    color: black;
+}
+
+.s1 {
+    display: flex;
+    width: auto;
+    height: auto;
+    border-radius: 63px;
+}
+
+.s2 {
+    width: auto;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.s2b,
+.s2c {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.s2a {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    /* justify-content: center; */
+}
+
+.s2b,
+.s2c {
+    font-size: 15px;
+    gap: 5px;
+}
+
+#svg {
+    display: flex;
+    color: yellow;
+    /* font-size: 5px; */
+    justify-content: center;
+    background-color: grey;
+}
