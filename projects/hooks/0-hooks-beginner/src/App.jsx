@@ -9,12 +9,15 @@
 // import Gradiente from '../pages/1.UseState/State3'
 // import ListaDeAnotaciones from '../pages/1.UseState/State4'
 // import AppMovies from '../pages/1.UseState/State5'
-import ManejoEstados from '../pages/1.UseState/trabajo-practico/State6'
+// import ManejoEstados from '../pages/1.UseState/trabajo-practico/State6'
 
 // import Effect from '../pages/UseEffect/useEffect.jsx'
 // import Tareas from '../pages/UseEffect/useEffect1.jsx'
 // import Timer from '../pages/2.UseEffect/useEffect2'
 // import Effect3 from '../pages/2.UseEffect/useEffect3'
+// import DataFetch from '../pages/2.UseEffect/useEffect-project/DataFetching'
+// import DataFetchOne from '../pages/2.UseEffect/useEffect-project/DataFetching1'
+import DataFetchTwo from '../pages/2.UseEffect/useEffect-project/DataFetching2'
 
 // import CurrencyConverter from '../pages/FetchAPI/normal.jsx'
 
@@ -54,7 +57,10 @@ function App() {
       {/* <SeguimientoTamañoVentana /> */}
       {/* <ListaDeAnotaciones /> */}
       {/* <AppMovies /> */}
-      <ManejoEstados />
+      {/* <ManejoEstados /> */}
+      {/* <DataFetch /> */}
+      {/* <DataFetchOne /> */}
+      <DataFetchTwo />
 
     </>
   )
