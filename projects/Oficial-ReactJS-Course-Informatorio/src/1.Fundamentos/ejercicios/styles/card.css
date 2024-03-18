@@ -1,0 +1,40 @@
+/* Estilos para el contenedor principal */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.flexer {
+    display: flex;
+    padding: 5px;
+}
+
+/* Estilos para el nombre de usuario */
+.username {
+    font-weight: bold;
+    color: #1da1f2;
+    /* Azul de Twitter */
+}
+
+/* Estilos para el nickname */
+.nickname {
+    color: #657786;
+    /* Gris oscuro de Twitter */
+}
+
+/* Estilos para el contenido del tweet */
+.tweet-content {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos para la imagen de perfil */
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
