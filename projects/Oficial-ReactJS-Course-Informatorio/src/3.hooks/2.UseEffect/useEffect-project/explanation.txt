@@ -1,0 +1,24 @@
+Los tres códigos cumplen con el objetivo de obtener datos de la API de Rick and Morty y mostrar los personajes en la interfaz de usuario. Sin embargo, hay algunas diferencias entre ellos en cuanto a la estructura y la forma en que se gestionan los estados. Aquí hay un análisis comparativo de los tres códigos:
+
+**Código 1:**
+- Utiliza el hook `useState` y el hook `useEffect` en el componente `DataFetch`.
+- La lógica para manejar la carga y los errores se encuentra dentro del componente `DataFetch`.
+- Renderiza un mensaje de carga y un mensaje de error cuando corresponda.
+- Utiliza un componente funcional `DeployCharacters` para renderizar los datos de los personajes.
+
+**Código 2:**
+- Utiliza el hook `useState` para gestionar el estado en el componente `DataFetchOne`.
+- La lógica para manejar la carga y los errores se encuentra dentro del componente `DataFetchOne`.
+- Renderiza un mensaje de carga y un mensaje de error cuando corresponda.
+- Utiliza un componente funcional `DeployCharacters` para renderizar los datos de los personajes.
+
+**Código 3:**
+- Utiliza un hook personalizado `useCharactersData` para gestionar el estado y la lógica de la API.
+- La lógica para manejar la carga y los errores se encuentra dentro del hook `useCharactersData`.
+- El componente `DataFetchTwo` utiliza el hook `useCharactersData` para obtener los datos de los personajes.
+- Renderiza un mensaje de carga y un mensaje de error cuando corresponda.
+- El hook `useCharactersData` proporciona funciones para manejar la paginación.
+
+En términos de simplicidad y claridad, el **Código 1** y el **Código 2** son bastante similares, ya que ambos utilizan componentes funcionales y manejan el estado localmente en los componentes. Sin embargo, el **Código 3** ofrece una separación más clara de las preocupaciones al utilizar un hook personalizado para manejar la lógica de la API, lo que puede hacer que el componente principal sea más limpio y fácil de entender.
+
+En general, el **Código 3** podría considerarse como el más simple y claro debido a su estructura modular y la separación de la lógica de la API en un hook personalizado. Sin embargo, la elección del mejor código depende de tus preferencias personales y de los requisitos específicos de tu proyecto.a
