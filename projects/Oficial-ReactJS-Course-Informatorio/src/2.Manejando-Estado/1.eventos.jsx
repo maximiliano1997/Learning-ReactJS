@@ -22,6 +22,7 @@ function Home() {
             </p>
             {usuario.age >= 18 ? <p>Sos Mayor de dad</p> : <p>Sos menor de dad</p>}
             <button onClick={imprimirPorConsola}>Haceme click</button>
+            <br />
             <button onClick={() => imprimirPorConsolaConParametro('Imanol')}>Haceme click</button>
         </div>
     );

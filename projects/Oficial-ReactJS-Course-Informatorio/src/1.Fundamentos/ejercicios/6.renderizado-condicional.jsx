@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client'
 const usuario = {
     name: 'Imanol',
     age: 27,
-    logged: false,
+    logged: true,
     followers: [],
 };
 
@@ -30,4 +30,4 @@ console.log(usuario.age > 18 && 'Hola')
 
 const container = document.querySelector('#app')
 const root = createRoot(container)
-root.render(<Home />);;
+root.render(<Home />);

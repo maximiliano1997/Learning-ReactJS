@@ -13,7 +13,7 @@ export default function FormularioSinEstado() {
         }
 
         // Agregamos un event listener al input para captpurar cambios
-        inputRef.current.addEventListener('input', handleInputChange);
+        // inputRef.current.addEventListener('input', handleInputChange);
 
         // Limpiamos el event listener en el cleanup de useEffect
         return () => {

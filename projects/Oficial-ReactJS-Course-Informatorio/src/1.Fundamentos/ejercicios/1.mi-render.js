@@ -2,6 +2,8 @@ function render(reactElement, containerDOMElement) {
     // Creamos el elemento de DOM
     const domElement = document.createElement(reactElement.type);
 
+    console.log(reactElement.props['class'])
+
     // Agregarle los atributos
     domElement.innerText = reactElement.children;
 

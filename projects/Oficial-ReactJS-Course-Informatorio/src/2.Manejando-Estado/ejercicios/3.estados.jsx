@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client'
 
 function Home() {
-    const [colors, setColors] = useState(['#008000', 'f0f000'])
+    const [colors, setColors] = useState(['#008000', '#f0f000'])
 
     const colorsJoined = colors.join();
     console.log({ elJoined: colorsJoined, elnormal: colors })

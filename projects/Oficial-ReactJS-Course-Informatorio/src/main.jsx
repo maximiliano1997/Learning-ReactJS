@@ -2,11 +2,10 @@
 // import ReactDOM from 'react-dom/client'
 // import App from './App.jsx'
 // import './index.css'
-
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>
 //     <App />
 //   </React.StrictMode>,
 // )
 
-import './1.Fundamentos/ejercicios/6.renderizado-condicional'
+import './3.hooks/7.useContext/useContext3/App'

@@ -15,6 +15,7 @@ export default function Home() {
     } else {
         return (
             <div>
+                {usuario.age > 18 && console.log('Holas')};
                 <h1>Bienvenido!</h1>´
                 <p>
                     Esta es la home. Hay informacion privada y solo los usuairo loggeados pueden verla.....
@@ -25,9 +26,8 @@ export default function Home() {
         );
     }
 
-    console.log(usuario.age > 18 && 'Holas');
-
 }
+console.log(usuario.age > 18 && 'Hola')
 
 const container = document.querySelector('#app');
 const root = createRoot(container);

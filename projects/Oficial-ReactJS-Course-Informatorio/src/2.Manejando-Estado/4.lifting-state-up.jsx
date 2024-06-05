@@ -4,6 +4,8 @@ import { createRoot } from 'react-dom/client'
 function SearchBar({ searchValue, setSearchValue }) {
     function handleSearch(event) {
         event.preventDefault();
+        console.log(event)
+        // Es un ejemplo, en realidad no queremos buscar nada :D
 
     }
 
@@ -13,6 +15,7 @@ function SearchBar({ searchValue, setSearchValue }) {
                 value={searchValue}
                 onChange={(event) => {
                     setSearchValue(event.target.value)
+                    console.log(event.target.elements)
                 }}
                 type="text" />
             <button>Buscar</button>
@@ -44,3 +47,5 @@ function Home() {
 const container = document.querySelector('#app')
 const root = createRoot(container)
 root.render(<Home />);
+
+// https://www.youtube.com/watch?v=qdkW8VxCau0     <-- Video de ejemplo claritoo !!

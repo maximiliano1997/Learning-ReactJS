@@ -6,6 +6,7 @@ export default function CambioColorFondo() {
     const divRef = useRef(null)
     const handleClick = () => {
         const divElement = divRef.current
+        console.log(divElement)
 
         divElement.style.backgroundColor = getRandomColor()
     }

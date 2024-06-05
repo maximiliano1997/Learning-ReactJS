@@ -7,9 +7,9 @@ export default function Tareas() {
 
     const [error, setError] = useState('');
 
-
     useEffect(() => {
         const tareasGuardadas = localStorage.getItem('tareas');
+
 
         if (tareasGuardadas) {
             setTareas(JSON.parse(tareasGuardadas))

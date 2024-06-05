@@ -20,7 +20,7 @@ function Todo({ todo, dispatch }) {
 
 function reducer(todos, action) {
     switch (action.type) {
-        case ACTIONS.ADD_TODO:
+        case ACTIONS.ADD_TODO == 'add-todo':
             return [...todos, newTodo(action.payload.name)]
         case ACTIONS.TOGGLE_TODO:
             return todos.map(todo => {
