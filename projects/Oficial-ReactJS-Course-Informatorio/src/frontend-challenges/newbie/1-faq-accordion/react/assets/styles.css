@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .mobile-card {
+        background-color: white;
+        width: 300px;
+        min-height: 500px;
+        border-radius: 15px;
+    }
+
+    .img-title {
+        width: 29px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .accordion {
+        font-size: 15px;
+    }
+
+    .content {
+        font-size: 13px;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .mobile-card {
+        background-color: white;
+        width: 400px;
+    }
+}
