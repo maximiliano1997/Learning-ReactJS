@@ -1,0 +1,162 @@
+body {
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    background-color: hsl(213, 19%, 18%);
+    border: 1px solid transparent;
+    border-radius: 14px;
+}
+
+.icon-container {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid transparent;
+    border-radius: 100%;
+    background-color: hsl(216, 12%, 20%);
+    /* background-color: red; */
+}
+
+.icon-star {
+    width: 15px;
+}
+
+.text-container,
+#thank-you-card {
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
+}
+
+.p-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-container {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.bts {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(217, 12%, 23%);
+    color: white;
+    border: 0 solid transparent;
+    border-radius: 100%;
+}
+
+.bts:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    width: 80%;
+    height: 35px;
+    align-self: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border: solid 0px transparent;
+    border-radius: 16px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+#thank-you-card {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.thank-you-icon-container {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+}
+
+.msg-selection {
+    width: 90%;
+    align-self: center;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: hsl(217, 12%, 23%);
+    color: orangered;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.selected {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+@media (min-width: 175px) and (max-width: 425px) {
+    .card {
+        width: 80%;
+    }
+
+    #thank-you-card {
+        height: 460px;
+    }
+
+    .buttons-container {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .msg-selection {
+        width: 80%;
+    }
+
+    .bts {
+        width: 35px;
+        height: 35px;
+    }
+
+    .submit {
+        width: 95%;
+    }
+}

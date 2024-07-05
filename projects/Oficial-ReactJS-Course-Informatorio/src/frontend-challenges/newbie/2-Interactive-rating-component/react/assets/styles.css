@@ -1,0 +1,27 @@
+@media (min-width: 175px) and (max-width: 425px) {
+    .card {
+        width: 80%;
+    }
+
+    #thank-you-card {
+        height: 460px;
+    }
+
+    .buttons-container {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .msg-selection {
+        width: 80%;
+    }
+
+    .bts {
+        width: 35px;
+        height: 35px;
+    }
+
+    .submit {
+        width: 95%;
+    }
+}
